@@ -31,7 +31,7 @@ library(tictoc)       # For measuring execution time
 set.seed(42)
 
 # Create 3 clusters with normal distribution
-n <- 300  # Total number of data points
+n <- 1000  # Total number of data points
 cluster1 <- data.frame(x = rnorm(n/3, mean = 2, sd = 0.5), y = rnorm(n/3, mean = 2, sd = 0.5))
 cluster2 <- data.frame(x = rnorm(n/3, mean = 6, sd = 0.5), y = rnorm(n/3, mean = 6, sd = 0.5))
 cluster3 <- data.frame(x = rnorm(n/3, mean = 10, sd = 0.5), y = rnorm(n/3, mean = 2, sd = 0.5))
